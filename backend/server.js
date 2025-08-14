@@ -28,7 +28,7 @@ import whatsappSend from "./routes/whatsappCloudSend.js";
 
 const app = express();
 
-app.use(cors({ origin: ['https://zapbot.com.br'], credentials: true }));
+app.use(cors({ origin: ['https://zapfoodbot.com.br'], credentials: true }));
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
